@@ -1,10 +1,13 @@
 :root{
     --violet-primary: #647dee;
+    --violet-secondary: #444CF7;
     --gradient: linear-gradient(90deg, #647dee, #7f53ac);
 }
 
 .i{
     display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
     padding: 0 10%;
 }
@@ -87,16 +90,28 @@
     position: absolute;
 } */
 
-.i-bg{
-    clip-path: circle(40% at 50% 50%);
-    background: var(--gradient);
-    width: 80%;
-    height: 80%;
-    position: absolute;
-    top: 40px;
-    right: 0;
-    transform: translateX(-10px);
+.i-circle{
+    /* clip-path: circle(40% at 50% 50%); */
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: var(--violet-secondary);
+    position: relative;
+    animation: move 3s linear infinite;
+    top: 200px;
+    /* right: 0; */
+    /* transform: translateX(-10px); */  
+      
 }
+
+/* @keyframes move {
+    from {
+      left: 0;
+    }
+    to {
+      left: 100%;
+    }
+  } */
 
 
 

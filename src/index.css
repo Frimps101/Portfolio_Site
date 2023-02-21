@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+
+:root{
+    --violet-primary: #647dee;
+    --gradient: linear-gradient(90deg, #647dee, #7f53ac);
+}

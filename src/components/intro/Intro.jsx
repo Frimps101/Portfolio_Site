@@ -1,11 +1,11 @@
 import React from 'react'
 import "./intro.css"
-import Me from "../../img/me1.png"
+
 
 const Intro = () => {
     return (
         <div className="i">
-            <div className="i-left">
+            {/* <div className="i-left"> */}
                 <div className="i-left-wrapper">
                     <h2 className="i-intro">My name is</h2>
                     <h1 className="i-name">Josephine F Kwakye</h1>
@@ -24,10 +24,10 @@ const Intro = () => {
                     </p>
                 </div>
                 
-            </div>
-            <div className="i-right">
-                <div className="i-bg"></div>
-            </div>
+            {/* </div> */}
+            {/* <div className="i-right">
+                <div className="i-circle"></div>
+            </div> */}
         </div>
     )
 }

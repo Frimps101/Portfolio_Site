@@ -5,6 +5,7 @@ import Contact from "./components/contacts/Contact";
 import Toggle from "./components/toggle/Toggle";
 import { ThemeContext } from "./context";
 import { useContext } from "react";
+import "./App.css";
 
 const App = () => {
 

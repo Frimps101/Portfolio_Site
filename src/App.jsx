@@ -8,18 +8,22 @@ import { useContext } from "react";
 import "./App.css";
 
 const App = () => {
-
-  const theme = useContext(ThemeContext)
+  const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
 
-  return( 
-  <div style={{backgroundColor:darkMode ? "#222" : "white", color:darkMode && "white"}}>
-    <Toggle />
-    <Intro/>
-    <About />
-    <ProductList />
-    <Contact />
-  </div>
+  return (
+    <div
+      style={{
+        backgroundColor: darkMode ? "#222" : "white",
+        color: darkMode && "white",
+      }}
+    >
+      <Toggle />
+      <Intro />
+      <About />
+      <ProductList />
+      <Contact />
+    </div>
   );
 };
 

@@ -6,6 +6,11 @@
     border-radius: 10px 10px 0px 0px;
     transition-delay: 5s;
     color: black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* gap: 20px;; */
 } 
 
 .p:hover {
@@ -15,8 +20,33 @@
     color: white;
 }
 
-.p-text{
+.p-icons{
+    margin-top: 10px;
+    display: flex;
+    justify-content: right;
+    /* gap: 10px; */
+    width: 100%;
+    /* background: blue; */
+}
+
+.icon{
+    padding-right: 10px;
+    font-size: 1.6rem;
+    color: var(--violet-primary);
+}
+
+
+.p-title{
     color: black;
+}
+
+.p-tech{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+    font-weight: 300;
 }
 
 @media screen and (max-width: 480px){

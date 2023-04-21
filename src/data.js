@@ -2,6 +2,7 @@ export const products = [
   {
     id: 1,
     link: "https://restaurant-site.pages.dev/",
+    title: "Frimps Eatery",
     desc: "lorem ipsum dolor sit color blue",
     tech: ["javascript", "html", "css"],
   },

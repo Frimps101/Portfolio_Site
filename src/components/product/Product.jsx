@@ -1,9 +1,9 @@
 import React from "react";
 import "./product.css";
+import "../../data";
 
 const Product = ({ link, title, desc, tech }) => {
-
-  console.log(title)
+  console.log(title);
   return (
     <div className="p">
       <div className="p-icons">
@@ -30,7 +30,7 @@ const Product = ({ link, title, desc, tech }) => {
 
       <div className="p-text">
         <h3 className="p-title">{title}</h3>
-        <p className="p-text">{desc}</p>
+        <p className="p-text__content">{desc}</p>
       </div>
 
       <div className="p-tech">

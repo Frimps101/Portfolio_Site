@@ -2,8 +2,8 @@ export const products = [
   {
     id: 1,
     link: "https://restaurant-site.pages.dev/",
-    title: "Frimps Eatery",
-    desc: "lorem ipsum dolor sit color blue",
+    title: "Simple Restaurant Site",
+    desc: "A simple yet stylish restaurant site is built with the latest HTML, JS, and CSS technology, providing a seamless and user-friendly interface. ",
     tech: ["javascript", "html", "css"],
   },
   {

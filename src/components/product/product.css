@@ -1,13 +1,12 @@
 .p {
   width: 28%;
-  height: 40vh;
+  height: 34vh;
   margin: 20px 10px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 10px 10px 0px 0px;
   transition-delay: 5s;
   color: black;
-  padding: 10px;
-
+  padding: 15px;
 
   display: flex;
   flex-direction: column;
@@ -44,11 +43,13 @@
 .p-title {
   color: black;
   text-align: left;
+  margin-bottom: 10px;
 }
 
 .p-text__content {
   text-align: left;
   font-size: 15px;
+  margin-bottom: 10px;
 }
 
 .p-tech {
@@ -56,7 +57,7 @@
   justify-content: center;
   gap: 10px;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   font-weight: 300;
 }
 

@@ -1,91 +1,91 @@
-:root{
-    --violet-primary: #647dee;
-    --gradient: linear-gradient(90deg, #647dee, #7f53ac);
+:root {
+  --violet-primary: #647dee;
+  --gradient: linear-gradient(90deg, #647dee, #7f53ac);
 }
 
-.a{
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    /* padding: 0 10%; */
+.a {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  /* padding: 0 10%; */
 }
 
-.a-left{
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
+.a-left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 
-
-.blob{
-    background: url("../../img/me.png");
-    background-size: cover;
-    background-position: center center;
-    height: 450px;
-    width: 450px;
+.blob {
+  background: url("../../img/me.png");
+  background-size: cover;
+  background-position: center center;
+  height: 450px;
+  width: 450px;
 }
 
-.a-right{
-    flex: 1;
-    /* padding-right: 5%; */
+.a-right {
+  flex: 1;
+  /* padding-right: 5%; */
 }
 
-.a-right__content{
-    width: 80%;
+.a-right__content {
+  width: 80%;
 }
 
-.a-title{
-    font-weight: 200;
+.a-title {
+  font-weight: 200;
 }
 
-.a-sub{
-    margin: 20px 0px;
-    font-size: 1.3rem;
+.a-sub {
+  margin: 20px 0px;
+  font-size: 1.3rem;
 }
 
-.a-desc{
-    font-weight: 300;
-    font-size: 1rem;
+.a-desc {
+  font-weight: 300;
+  font-size: 1rem;
 }
 
-.a-cv{
+.a-cv {
+  margin-top: 50px;
+}
+
+.a-cv-item {
+  border: none;
+  padding: 15px;
+  background: var(--violet-primary);
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.a-cv-item:hover {
+  opacity: 0.9;
+}
+
+@media screen and (max-width: 480px) {
+  .a {
+    flex-direction: column;
+    text-align: center;
     margin-top: 50px;
-}
+  }
 
-.a-cv-item{
-    border: none;
-    padding: 15px;
-    background: var(--gradient);
-    color: white;
-    font-weight: 700;
-    cursor: pointer;
-    text-decoration: none;
-    text-transform: uppercase;
-    border-radius: 5px;
-}
+  .a-left {
+    width: 100%;
+  }
 
-.a-cv-item:hover{
-    opacity: 0.9;
-}
+  .a-card {
+    height: 30vh;
+  }
 
-@media screen and (max-width: 480px){
-    .a{
-        flex-direction: column;
-        text-align: center;
-        margin-top: 50px;
-    }
-
-    .a-left{
-        width: 100%;
-    }
-
-    .a-card{
-        height: 30vh;
-    }
-
-    .a-card.bg{
-        display: none;
-    }
+  .a-card.bg {
+    display: none;
+  }
 }

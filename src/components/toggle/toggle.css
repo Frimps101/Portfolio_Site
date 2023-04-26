@@ -28,7 +28,7 @@
     width: 24.5px;
     height: 24.5px;
     border-radius: 50%;
-    background: var(--gradient);
+    background: var(--violet-primary);
     position: absolute;
     cursor: pointer;
     left: 0;

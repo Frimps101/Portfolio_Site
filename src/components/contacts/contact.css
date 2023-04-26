@@ -1,6 +1,5 @@
 :root{
     --violet-primary: #647dee;
-    --gradient: linear-gradient(90deg, #647dee, #7f53ac);
 }
 
 .c{
@@ -11,7 +10,7 @@
 .c-bg{
     width: 20px;
     height: 100%;
-    background: var(--gradient);
+    background: var(--violet-primary);
     position: absolute;
 }
 
@@ -76,12 +75,13 @@ textarea{
 
 button{
    border: none;
-   padding: 15px;
-   background: var(--gradient);
+   padding: 10px 20px;
+   background: var(--violet-primary);
    color: white;
    font-weight: 500;
    cursor: pointer;  
    text-transform: uppercase;
+   border-radius: 5px;
 }
 
 button:hover{

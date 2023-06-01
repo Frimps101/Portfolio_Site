@@ -2,19 +2,18 @@ import React from "react";
 import "./product.css";
 import { products } from "../../data";
 
-const Product = ({ link, title, desc, tech }) => {
-  console.log(title);
+const Product = () => {
   return (
     <>
-      {products.map((item) => (
-        <div className="p">
+      {products.map(({ id, link, github,title, desc, tech, img }) => (
+        <div key={id} className="p">
           <div className="p-icons">
             <div className="p-icons--wrapper">
               <a
                 rel="noreferrer"
                 className="p-icons--link"
                 target="_blank"
-                href={link}
+                href={github}
               >
                 <i class="fa-brands fa-github icon"></i>
               </a>
@@ -23,7 +22,7 @@ const Product = ({ link, title, desc, tech }) => {
               <a
                 rel="noreferrer"
                 target="_blank"
-                href="https://github.com/Frimps101"
+                href={link}
               >
                 <i class="fa-solid fa-arrow-up-right-from-square icon"></i>
               </a>
@@ -36,7 +35,10 @@ const Product = ({ link, title, desc, tech }) => {
           </div>
 
           <div className="p-tech">
-            {tech?.map((item) => (
+            {/* {{tech?.map((item) => (
+              <small key={item}>{item}</small>
+            ))}} */}
+            { tech?.map((item)=>(
               <small key={item}>{item}</small>
             ))}
           </div>

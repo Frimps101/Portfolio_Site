@@ -1,7 +1,5 @@
 import React from "react";
 import "./about.css";
-import about from "../../img/me.png";
-import shape from "../../img/blob.png"
 import CV from "../../img/Josephine_CV.pdf";
 
 const About = () => {
@@ -22,17 +20,10 @@ const About = () => {
             beautiful and intuitive digital experiences.
           </p>
           <p className="a-desc">
-            As a software developer, graphic designer, and UI/UX designer, I
-            have a unique skillset that allows me to bring projects from concept
-            to launch with a holistic and user-centered approach
+            I'm a multi-talented software developer, graphic designer, and UI/UX designer who takes a holistic and user-centered approach to every project. 
             <br />
-            I have had the opportunity to work on a wide range of projects, from
-            developing custom web applications to designing brand identities and
-            creating wireframes for mobile apps. I am proficient in a variety of
-            programming languages and design tools.
-            <br />I am always looking for new challenges and opportunities to
-            grow as a developer and designer, so don't hesitate to reach out if
-            you have a project in mind!
+            Whether it's developing custom web applications or creating wireframes for mobile apps, I pour my heart and soul into every detail. I'm well-versed in a variety of programming languages and design tools, and I'm always eager to take on new challenges and grow both personally and professionally. 
+            <br />So, if you're looking for someone who will care about your project as much as you do, please don't hesitate to reach out!
           </p>
           <div className="a-cv">
             <a

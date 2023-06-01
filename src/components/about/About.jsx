@@ -16,14 +16,15 @@ const About = () => {
         <div className="a-right__content">
           <h1 className="a-title">About Me</h1>
           <p className="a-sub">
-            I am a multidisciplinary creative with a passion for building
-            beautiful and intuitive digital experiences.
+            I'm a passionate professional in software development, 
+            graphic design, and UI/UX.
           </p>
           <p className="a-desc">
-            I'm a multi-talented software developer, graphic designer, and UI/UX designer who takes a holistic and user-centered approach to every project. 
-            <br />
-            Whether it's developing custom web applications or creating wireframes for mobile apps, I pour my heart and soul into every detail. I'm well-versed in a variety of programming languages and design tools, and I'm always eager to take on new challenges and grow both personally and professionally. 
-            <br />So, if you're looking for someone who will care about your project as much as you do, please don't hesitate to reach out!
+            With a holistic mindset, I approach every project with a user-centered focus. 
+            From developing custom web applications to crafting mobile app wireframes, 
+            I invest my energy and expertise into perfecting even the smallest details. 
+            Proficient in diverse programming languages and design tools, I thrive on 
+            embracing new challenges and continuously expanding my skills. 
           </p>
           <div className="a-cv">
             <a

@@ -26,18 +26,32 @@
     justify-content: space-between;
 }
 
-@media screen and (max-width: 480px){
+@media (max-width: 20em) {
+    /* Styles for phones */
+  
     .pl{
-        padding: 10px;
-        margin-top: 40px;
+        margin-top: 10rem;
     }
 
-    .pl-text{
-        width: 100%;
+    .pl-title{
+        font-size: 20px; 
+        font-weight: 300;
     }
 
-    .pl-desc{
-        display: none;
-    }
+  }
 
+@media (min-width: 20.063em) and (max-width: 30em) {
+/* Styles for phones in landscape and small tablets */
+}
+
+@media (min-width: 30.063em) and (max-width: 48em) {
+/* Styles for tablets and large phones */
+}
+
+@media (min-width: 48.063em) and (max-width: 64em) {
+    /* Styles for small screens and desktops */
+}
+
+@media (min-width: 64.063em) and (max-width: 75em) {
+    /* Styles for big screens and large desktops */
 }

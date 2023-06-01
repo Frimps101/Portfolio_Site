@@ -35,9 +35,6 @@ const Product = () => {
           </div>
 
           <div className="p-tech">
-            {/* {{tech?.map((item) => (
-              <small key={item}>{item}</small>
-            ))}} */}
             { tech?.map((item)=>(
               <small key={item}>{item}</small>
             ))}

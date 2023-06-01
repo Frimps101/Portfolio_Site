@@ -19,7 +19,7 @@
 }
 
 .blob {
-  background: url("../../img/me.png");
+  background: url("../../img/jo.png");
   background-size: cover;
   background-position: center center;
   height: 450px;
@@ -63,29 +63,39 @@
   text-decoration: none;
   text-transform: uppercase;
   border-radius: 5px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
 }
 
 .a-cv-item:hover {
   opacity: 0.9;
 }
 
-@media screen and (max-width: 480px) {
+@media (max-width: 20em) {
   .a {
-    flex-direction: column;
+    display: block;
     text-align: center;
-    margin-top: 50px;
   }
-
-  .a-left {
-    width: 100%;
-  }
-
-  .a-card {
-    height: 30vh;
-  }
-
-  .a-card.bg {
+  .blob {
     display: none;
   }
+  .a-sub {
+    display: none;
+  }
+}
+
+@media (min-width: 20.063em) and (max-width: 30em) {
+  /* Styles for phones in landscape and small tablets */
+}
+
+@media (min-width: 30.063em) and (max-width: 48em) {
+  /* Styles for tablets and large phones */
+}
+
+@media (min-width: 48.063em) and (max-width: 64em) {
+  /* Styles for small screens and desktops */
+}
+
+@media (min-width: 64.063em) and (max-width: 75em) {
+  /* Styles for big screens and large desktops */
 }

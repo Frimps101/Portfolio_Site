@@ -5,7 +5,7 @@ import { products } from "../../data";
 const Product = () => {
   return (
     <>
-      {products.map(({ id, link, github,title, desc, tech, img }) => (
+      {/* {products.map(({ id, link, github,title, desc, tech, img }) => (
         <div key={id} className="p">
           <div className="p-icons">
             <div className="p-icons--wrapper">
@@ -40,7 +40,7 @@ const Product = () => {
             ))}
           </div>
         </div>
-      ))}
+      ))} */}
     </>
   );
 };

@@ -22,8 +22,8 @@ const App = () => {
       <Toggle />
       <Intro />
       <About />
-      {/* <ProductList /> */}
-      <Project />
+      <ProductList />
+      {/* <Project /> */}
       <Contact />
     </div>
   );

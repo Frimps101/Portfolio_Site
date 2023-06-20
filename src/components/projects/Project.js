@@ -8,7 +8,7 @@ const Project = () => {
   return (
     <>
       <div className="mt-[10rem] text-center">
-        <h1 className="pl-title">Create & Inspire</h1>
+        <h1 className="pl-title">Create & Inspire & Discover</h1>
         <p className="pl-desc">
           Check out my portfolio for your creative needs and more.
         </p>

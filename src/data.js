@@ -2,7 +2,7 @@ export const products = [
   {
     id: 1,
     link: "https://restaurant-site.pages.dev/",
-    github: "",
+    github: "https://github.com/Frimps101/Restaurant_Site",
     title: "Simple Restaurant Site",
     desc: "A simple yet stylish restaurant site is built with the latest HTML, JS, and CSS technology, providing a seamless and user-friendly interface. ",
     tech: ["javascript", "html", "css"],
@@ -18,7 +18,7 @@ export const products = [
   {
     id: 3,
     link: "https://the-kwame-inc-site.pages.dev/",
-    github: "",
+    github: "https://github.com/Frimps101/The-Kwame-Inc-Site",
     title: "The Kwame Inc",
     desc: "A stylish and functional framing website created with React, boasting a seamless and intuitive user interface, aimed at attracting and engaging more customers.",
     tech: ["react", "css"],
@@ -33,18 +33,18 @@ export const products = [
   },
   {
     id: 5,
-    link: "http://lama.dev",
+    link: "https://land-registration-and-tokenization.pages.dev/",
     github: "",
-    title: "Simple Restaurant Site",
-    desc: "A simple yet stylish restaurant site is built with the latest HTML, JS, and CSS technology, providing a seamless and user-friendly interface. ",
+    title: "Land Registration and Tokenization",
+    desc: "A simple website built for a hackathon competition.",
     tech: ["javascript", "html", "css"],
   },
   {
     id: 6,
-    link: "http://lama.dev",
-    github: "",
-    title: "Simple Restaurant Site",
-    desc: "A simple yet stylish restaurant site is built with the latest HTML, JS, and CSS technology, providing a seamless and user-friendly interface. ",
+    link: "https://guava-3hn.pages.dev/",
+    github: "https://github.com/Frimps101/Guava",
+    title: "Guava Site",
+    desc: "Unlock your financial potential with our investment website. Discover a world of opportunities.",
     tech: ["javascript", "html", "css"],
   },
 ];

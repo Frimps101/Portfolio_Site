@@ -1,94 +1,66 @@
 import React from "react";
 import { Card } from "antd";
 import "./project.css";
+import { products } from "../../data";
 
-const features = [
-  {
-    name: "Push to deploy",
-    description:
-      "Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi. Odio urna massa nunc massa.",
-  },
-  {
-    name: "SSL certificates",
-    description:
-      "Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet.",
-  },
-  {
-    name: "Simple queues",
-    description:
-      "Quisque est vel vulputate cursus. Risus proin diam nunc commodo. Lobortis auctor congue commodo diam neque.",
-  },
-  {
-    name: "Advanced security",
-    description:
-      "Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.",
-  },
-];
 
 const Project = () => {
   return (
-    <div className="flex justify-between">
-      <div className="w-1/3 p-4">
-        <div className="flex items-center mb-2">
-          <h2 className="text-xl font-bold">Card 1</h2>
-          <div className="ml-2 flex">
-            <a href="#" className="mr-2">
-              <i className="fab fa-github"></i>
-            </a>
-            <a href="#">
-              <i className="fab fa-linkedin"></i>
-            </a>
+    <>
+      <div className="mt-[10rem] text-center">
+        <h1 className="pl-title">Create & Inspire</h1>
+        <p className="pl-desc">
+          Check out my portfolio for your creative needs and more.
+        </p>
+      </div>
+      
+        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+            {products.map(({ id, link, github, title, desc, tech, img }) => (
+              <article key={id} className="drop-shadow-2xl bg-white py-[2rem] px-4 max-w-xl flex-col items-start justify-between rounded">
+                <div className="flex justify-between">
+                  <div className="">
+                    <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
+                      <a href={link}
+                         target="_blank"
+                      >
+                        <span className="" />
+                        {title}
+                      </a>
+                    </h3>
+                  </div>
+
+                  <div className="flex items-center text-xs">
+                    <a
+                      href={github}
+                      target="_blank"
+                      className=" z-10 py-1.5 font-medium"
+                    >
+                      <i class="fa-brands fa-github icon"></i>
+                    </a>
+                    <a
+                      href={link}
+                      target="_blank"
+                      className="relative z-10 py-1.5 font-medium"
+                    >
+                      <i class="fa-solid fa-arrow-up-right-from-square icon"></i>
+                    </a>
+                  </div>
+
+                </div>
+                <p className="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">{desc}</p>
+
+                <div className="mt-3 p-tech">
+                  {tech?.map((item) => (
+                    <small key={item}>{item}</small>
+                  ))}
+                </div>
+              </article>
+            ))}
           </div>
         </div>
-        <p className="text-sm text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed est ac velit consequat aliquet.</p>
-        <ul className="flex text-gray-600 mt-2">
-          <li className="mr-2">React</li>
-          <li className="mr-2">JavaScript</li>
-          <li className="mr-2">CSS</li>
-          <li className="mr-2">HTML</li>
-        </ul>
-      </div>
-      <div className="w-1/3 p-4">
-        <div className="flex items-center mb-2">
-          <h2 className="text-xl font-bold">Card 2</h2>
-          <div className="ml-2 flex">
-            <a href="#" className="mr-2">
-              <i className="fab fa-github"></i>
-            </a>
-            <a href="#">
-              <i className="fab fa-linkedin"></i>
-            </a>
-          </div>
-        </div>
-        <p className="text-sm text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed est ac velit consequat aliquet.</p>
-        <ul className="flex text-gray-600 mt-2">
-          <li className="mr-2">Node.js</li>
-          <li className="mr-2">Express.js</li>
-          <li className="mr-2">MongoDB</li>
-          <li className="mr-2">REST API</li>
-        </ul>
-      </div>
-      <div className="w-1/3 p-4">
-        <div className="flex items-center mb-2">
-          <h2 className="text-xl font-bold">Card 3</h2>
-          <div className="ml-2 flex">
-            <a href="#" className="mr-2">
-              <i className="fab fa-github"></i>
-            </a>
-            <a href="#">
-              <i className="fab fa-linkedin"></i>
-            </a>
-          </div>
-        </div>
-        <p className="text-sm text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed est ac velit consequat aliquet.</p>
-        <ul className="flex text-gray-600 mt-2">
-          <li className="mr-2">Vue.js</li>
-          <li className="mr-2">TypeScript</li>
-          <li className="mr-2">Sass</li>
-          <li className="mr-2">Webpack</li>
-        </ul>
-      </div>
-    </div>
+      
+    </>
   );
 };
 

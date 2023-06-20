@@ -5,42 +5,32 @@ import { products } from "../../data";
 const Product = () => {
   return (
     <>
-      {/* {products.map(({ id, link, github,title, desc, tech, img }) => (
-        <div key={id} className="p">
-          <div className="p-icons">
-            <div className="p-icons--wrapper">
-              <a
-                rel="noreferrer"
-                className="p-icons--link"
-                target="_blank"
-                href={github}
-              >
-                <i class="fa-brands fa-github icon"></i>
-              </a>
+      {products.map(({ id, link, github, title, desc, tech, img }) => (
+        <div className="flex my-[10rem] justify-between section">
+          <div className="w-1/3 p-4">
+            <div className="flex justify-between items-center mb-2">
+              <h2 className="text-xl font-bold">{title}</h2>
+              <div className="ml-2 flex">
+                <a href={github} className="mr-2">
+                  <i className="fab fa-github"></i>
+                </a>
+                <a href={link}>
+                  <i className="fab fa-linkedin"></i>
+                </a>
+              </div>
             </div>
-            <div className="p-icons--wrapper">
-              <a
-                rel="noreferrer"
-                target="_blank"
-                href={link}
-              >
-                <i class="fa-solid fa-arrow-up-right-from-square icon"></i>
-              </a>
-            </div>
-          </div>
-
-          <div className="p-text">
-            <h3 className="p-title">{title}</h3>
-            <p className="p-text__content">{desc}</p>
-          </div>
-
-          <div className="p-tech">
+            <p className="text-sm text-gray-600">{desc}</p>
+            <ul className="flex text-gray-600 mt-2">
             { tech?.map((item)=>(
-              <small key={item}>{item}</small>
+              <li>
+                <small key={item}>{item}</small>
+              </li>
             ))}
+            </ul>
           </div>
+          
         </div>
-      ))} */}
+      ))}
     </>
   );
 };

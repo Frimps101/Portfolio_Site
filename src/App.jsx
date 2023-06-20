@@ -1,3 +1,4 @@
+import 'tailwindcss/tailwind.css';
 import Intro from "./components/intro/Intro";
 import About from "./components/about/About";
 import ProductList from "./components/productList/ProductList";
@@ -22,8 +23,8 @@ const App = () => {
       <Toggle />
       <Intro />
       <About />
-      <ProductList />
-      {/* <Project /> */}
+      {/* <ProductList /> */}
+      <Project />
       <Contact />
     </div>
   );

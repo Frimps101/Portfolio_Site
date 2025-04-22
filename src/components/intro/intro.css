@@ -42,6 +42,7 @@
 
 .i-name {
   font-size: 60px;
+  font-weight: 800;
 }
 
 .i-title {
@@ -56,6 +57,7 @@
 
 .i-desc {
   width: 80%;
+  font-size:18px;
 }
 
 @keyframes move {

@@ -8,14 +8,14 @@ import Link from "antd/es/typography/Link";
 const Project = () => {
   return (
     <>
-      <div className="mt-[10rem] text-center">
+      <div className="content-container mt-[10rem] text-center">
         <h1 className="pl-title">Create & Inspire & Discover</h1>
         <p className="pl-desc">
           Check out my portfolio for your creative needs and more.
         </p>
       </div>
       
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+      <div className="content-container">
         <div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
           {products.map(({ id, link, github, title, desc, tech, img }) => (
             <article key={id} className="drop-shadow-2xl bg-white py-[2rem] px-4 max-w-xl flex-col items-start justify-between rounded">

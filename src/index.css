@@ -3,6 +3,11 @@
 @tailwind utilities;
 
 
+@layer components {
+  .content-container {
+    @apply mx-auto w-full max-w-7xl px-6 lg:px-8;
+  }
+}
 
 * {
     margin: 0;

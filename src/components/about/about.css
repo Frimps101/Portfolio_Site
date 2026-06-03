@@ -5,16 +5,19 @@
 
 .a {
   /* height: 100vh; */
+}
+
+.a-container {
   display: flex;
   align-items: center;
-  /* padding: 0 10%; */
+  gap: 2rem;
 }
 
 .a-left {
   flex: 1;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   position: relative;
 }
 
@@ -22,8 +25,9 @@
   background: url("../../img/jo.png");
   background-size: cover;
   background-position: center center;
-  height: 450px;
-  width: 450px;
+  width: 100%;
+  max-width: 450px;
+  aspect-ratio: 1;
 }
 
 .a-right {
@@ -32,7 +36,7 @@
 }
 
 .a-right__content {
-  width: 80%;
+  width: 100%;
 }
 
 .a-title {
@@ -72,8 +76,8 @@
 }
 
 @media (max-width: 20em) {
-  .a {
-    display: block;
+  .a-container {
+    flex-direction: column;
     text-align: center;
   }
   .blob {

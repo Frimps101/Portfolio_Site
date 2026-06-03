@@ -1,0 +1,32 @@
+"filename", "language", "Markdown", "JSON", "JavaScript", "HTML", "JavaScript JSX", "PostCSS", "comment", "blank", "total"
+"/Users/frimpomaa/FusionHub/Personal/Portfolio_Site/README.md", "Markdown", 38, 0, 0, 0, 0, 0, 0, 33, 71
+"/Users/frimpomaa/FusionHub/Personal/Portfolio_Site/context.js", "JavaScript", 0, 0, 19, 0, 0, 0, 0, 5, 24
+"/Users/frimpomaa/FusionHub/Personal/Portfolio_Site/package-lock.json", "JSON", 0, 18237, 0, 0, 0, 0, 0, 1, 18238
+"/Users/frimpomaa/FusionHub/Personal/Portfolio_Site/package.json", "JSON", 0, 57, 0, 0, 0, 0, 0, 1, 58
+"/Users/frimpomaa/FusionHub/Personal/Portfolio_Site/postcss.config.js", "JavaScript", 0, 0, 6, 0, 0, 0, 0, 0, 6
+"/Users/frimpomaa/FusionHub/Personal/Portfolio_Site/public/index.html", "HTML", 0, 0, 0, 24, 0, 0, 0, 6, 30
+"/Users/frimpomaa/FusionHub/Personal/Portfolio_Site/src/App.css", "PostCSS", 0, 0, 0, 0, 0, 7, 0, 1, 8
+"/Users/frimpomaa/FusionHub/Personal/Portfolio_Site/src/App.jsx", "JavaScript JSX", 0, 0, 0, 0, 28, 0, 13, 5, 46
+"/Users/frimpomaa/FusionHub/Personal/Portfolio_Site/src/components/about/About.jsx", "JavaScript JSX", 0, 0, 0, 0, 40, 0, 2, 5, 47
+"/Users/frimpomaa/FusionHub/Personal/Portfolio_Site/src/components/about/about.css", "PostCSS", 0, 0, 0, 0, 0, 78, 7, 17, 102
+"/Users/frimpomaa/FusionHub/Personal/Portfolio_Site/src/components/contacts/Contact.jsx", "JavaScript JSX", 0, 0, 0, 0, 88, 0, 0, 6, 94
+"/Users/frimpomaa/FusionHub/Personal/Portfolio_Site/src/components/contacts/contact.css", "PostCSS", 0, 0, 0, 0, 0, 93, 5, 21, 119
+"/Users/frimpomaa/FusionHub/Personal/Portfolio_Site/src/components/intro/Intro.jsx", "JavaScript JSX", 0, 0, 0, 0, 26, 0, 5, 5, 36
+"/Users/frimpomaa/FusionHub/Personal/Portfolio_Site/src/components/intro/intro.css", "PostCSS", 0, 0, 0, 0, 0, 107, 8, 21, 136
+"/Users/frimpomaa/FusionHub/Personal/Portfolio_Site/src/components/product/Product.jsx", "JavaScript JSX", 0, 0, 0, 0, 35, 0, 0, 4, 39
+"/Users/frimpomaa/FusionHub/Personal/Portfolio_Site/src/components/product/product.css", "PostCSS", 0, 0, 0, 0, 0, 62, 5, 14, 81
+"/Users/frimpomaa/FusionHub/Personal/Portfolio_Site/src/components/productList/ProductList.jsx", "JavaScript JSX", 0, 0, 0, 0, 19, 0, 0, 4, 23
+"/Users/frimpomaa/FusionHub/Personal/Portfolio_Site/src/components/productList/productList.css", "PostCSS", 0, 0, 0, 0, 0, 40, 5, 12, 57
+"/Users/frimpomaa/FusionHub/Personal/Portfolio_Site/src/components/projects/Project.js", "JavaScript", 0, 0, 63, 0, 0, 0, 0, 9, 72
+"/Users/frimpomaa/FusionHub/Personal/Portfolio_Site/src/components/projects/project.css", "PostCSS", 0, 0, 0, 0, 0, 0, 0, 1, 1
+"/Users/frimpomaa/FusionHub/Personal/Portfolio_Site/src/components/toggle/Toggle.jsx", "JavaScript JSX", 0, 0, 0, 0, 19, 0, 0, 7, 26
+"/Users/frimpomaa/FusionHub/Personal/Portfolio_Site/src/components/toggle/toggle.css", "PostCSS", 0, 0, 0, 0, 0, 31, 0, 5, 36
+"/Users/frimpomaa/FusionHub/Personal/Portfolio_Site/src/context.js", "JavaScript", 0, 0, 19, 0, 0, 0, 0, 5, 24
+"/Users/frimpomaa/FusionHub/Personal/Portfolio_Site/src/data.js", "JavaScript", 0, 0, 50, 0, 0, 0, 0, 1, 51
+"/Users/frimpomaa/FusionHub/Personal/Portfolio_Site/src/index.css", "PostCSS", 0, 0, 0, 0, 0, 13, 0, 4, 17
+"/Users/frimpomaa/FusionHub/Personal/Portfolio_Site/src/index.js", "JavaScript", 0, 0, 17, 0, 0, 0, 0, 1, 18
+"/Users/frimpomaa/FusionHub/Personal/Portfolio_Site/src/pages/AllProjects.jsx", "JavaScript JSX", 0, 0, 0, 0, 20, 0, 1, 5, 26
+"/Users/frimpomaa/FusionHub/Personal/Portfolio_Site/src/pages/Error.jsx", "JavaScript JSX", 0, 0, 0, 0, 7, 0, 0, 2, 9
+"/Users/frimpomaa/FusionHub/Personal/Portfolio_Site/src/pages/Home.jsx", "JavaScript JSX", 0, 0, 0, 0, 28, 0, 1, 3, 32
+"/Users/frimpomaa/FusionHub/Personal/Portfolio_Site/tailwind.config.js", "JavaScript", 0, 0, 9, 0, 0, 0, 1, 3, 13
+"Total", "-", 38, 18294, 183, 24, 310, 431, 53, 207, 19540

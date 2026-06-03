@@ -1,0 +1,72 @@
+Date : 2026-04-20 00:25:20
+Directory : /Users/frimpomaa/FusionHub/Personal/Portfolio_Site
+Total : 30 files,  19280 codes, 53 comments, 207 blanks, all 19540 lines
+
+Languages
++----------------+------------+------------+------------+------------+------------+
+| language       | files      | code       | comment    | blank      | total      |
++----------------+------------+------------+------------+------------+------------+
+| JSON           |          2 |     18,294 |          0 |          2 |     18,296 |
+| PostCSS        |          9 |        431 |         30 |         96 |        557 |
+| JavaScript JSX |         10 |        310 |         22 |         46 |        378 |
+| JavaScript     |          7 |        183 |          1 |         24 |        208 |
+| Markdown       |          1 |         38 |          0 |         33 |         71 |
+| HTML           |          1 |         24 |          0 |          6 |         30 |
++----------------+------------+------------+------------+------------+------------+
+
+Directories
++-----------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                          | files      | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                             |         30 |     19,280 |         53 |        207 |     19,540 |
+| . (Files)                                                                                     |          6 |     18,366 |          1 |         43 |     18,410 |
+| public                                                                                        |          1 |         24 |          0 |          6 |         30 |
+| src                                                                                           |         23 |        890 |         52 |        158 |      1,100 |
+| src (Files)                                                                                   |          6 |        134 |         13 |         17 |        164 |
+| src/components                                                                                |         14 |        701 |         37 |        131 |        869 |
+| src/components/about                                                                          |          2 |        118 |          9 |         22 |        149 |
+| src/components/contacts                                                                       |          2 |        181 |          5 |         27 |        213 |
+| src/components/intro                                                                          |          2 |        133 |         13 |         26 |        172 |
+| src/components/product                                                                        |          2 |         97 |          5 |         18 |        120 |
+| src/components/productList                                                                    |          2 |         59 |          5 |         16 |         80 |
+| src/components/projects                                                                       |          2 |         63 |          0 |         10 |         73 |
+| src/components/toggle                                                                         |          2 |         50 |          0 |         12 |         62 |
+| src/pages                                                                                     |          3 |         55 |          2 |         10 |         67 |
++-----------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-----------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| filename                                                                                      | language       | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| /Users/frimpomaa/FusionHub/Personal/Portfolio_Site/README.md                                  | Markdown       |         38 |          0 |         33 |         71 |
+| /Users/frimpomaa/FusionHub/Personal/Portfolio_Site/context.js                                 | JavaScript     |         19 |          0 |          5 |         24 |
+| /Users/frimpomaa/FusionHub/Personal/Portfolio_Site/package-lock.json                          | JSON           |     18,237 |          0 |          1 |     18,238 |
+| /Users/frimpomaa/FusionHub/Personal/Portfolio_Site/package.json                               | JSON           |         57 |          0 |          1 |         58 |
+| /Users/frimpomaa/FusionHub/Personal/Portfolio_Site/postcss.config.js                          | JavaScript     |          6 |          0 |          0 |          6 |
+| /Users/frimpomaa/FusionHub/Personal/Portfolio_Site/public/index.html                          | HTML           |         24 |          0 |          6 |         30 |
+| /Users/frimpomaa/FusionHub/Personal/Portfolio_Site/src/App.css                                | PostCSS        |          7 |          0 |          1 |          8 |
+| /Users/frimpomaa/FusionHub/Personal/Portfolio_Site/src/App.jsx                                | JavaScript JSX |         28 |         13 |          5 |         46 |
+| /Users/frimpomaa/FusionHub/Personal/Portfolio_Site/src/components/about/About.jsx             | JavaScript JSX |         40 |          2 |          5 |         47 |
+| /Users/frimpomaa/FusionHub/Personal/Portfolio_Site/src/components/about/about.css             | PostCSS        |         78 |          7 |         17 |        102 |
+| /Users/frimpomaa/FusionHub/Personal/Portfolio_Site/src/components/contacts/Contact.jsx        | JavaScript JSX |         88 |          0 |          6 |         94 |
+| /Users/frimpomaa/FusionHub/Personal/Portfolio_Site/src/components/contacts/contact.css        | PostCSS        |         93 |          5 |         21 |        119 |
+| /Users/frimpomaa/FusionHub/Personal/Portfolio_Site/src/components/intro/Intro.jsx             | JavaScript JSX |         26 |          5 |          5 |         36 |
+| /Users/frimpomaa/FusionHub/Personal/Portfolio_Site/src/components/intro/intro.css             | PostCSS        |        107 |          8 |         21 |        136 |
+| /Users/frimpomaa/FusionHub/Personal/Portfolio_Site/src/components/product/Product.jsx         | JavaScript JSX |         35 |          0 |          4 |         39 |
+| /Users/frimpomaa/FusionHub/Personal/Portfolio_Site/src/components/product/product.css         | PostCSS        |         62 |          5 |         14 |         81 |
+| /Users/frimpomaa/FusionHub/Personal/Portfolio_Site/src/components/productList/ProductList.jsx | JavaScript JSX |         19 |          0 |          4 |         23 |
+| /Users/frimpomaa/FusionHub/Personal/Portfolio_Site/src/components/productList/productList.css | PostCSS        |         40 |          5 |         12 |         57 |
+| /Users/frimpomaa/FusionHub/Personal/Portfolio_Site/src/components/projects/Project.js         | JavaScript     |         63 |          0 |          9 |         72 |
+| /Users/frimpomaa/FusionHub/Personal/Portfolio_Site/src/components/projects/project.css        | PostCSS        |          0 |          0 |          1 |          1 |
+| /Users/frimpomaa/FusionHub/Personal/Portfolio_Site/src/components/toggle/Toggle.jsx           | JavaScript JSX |         19 |          0 |          7 |         26 |
+| /Users/frimpomaa/FusionHub/Personal/Portfolio_Site/src/components/toggle/toggle.css           | PostCSS        |         31 |          0 |          5 |         36 |
+| /Users/frimpomaa/FusionHub/Personal/Portfolio_Site/src/context.js                             | JavaScript     |         19 |          0 |          5 |         24 |
+| /Users/frimpomaa/FusionHub/Personal/Portfolio_Site/src/data.js                                | JavaScript     |         50 |          0 |          1 |         51 |
+| /Users/frimpomaa/FusionHub/Personal/Portfolio_Site/src/index.css                              | PostCSS        |         13 |          0 |          4 |         17 |
+| /Users/frimpomaa/FusionHub/Personal/Portfolio_Site/src/index.js                               | JavaScript     |         17 |          0 |          1 |         18 |
+| /Users/frimpomaa/FusionHub/Personal/Portfolio_Site/src/pages/AllProjects.jsx                  | JavaScript JSX |         20 |          1 |          5 |         26 |
+| /Users/frimpomaa/FusionHub/Personal/Portfolio_Site/src/pages/Error.jsx                        | JavaScript JSX |          7 |          0 |          2 |          9 |
+| /Users/frimpomaa/FusionHub/Personal/Portfolio_Site/src/pages/Home.jsx                         | JavaScript JSX |         28 |          1 |          3 |         32 |
+| /Users/frimpomaa/FusionHub/Personal/Portfolio_Site/tailwind.config.js                         | JavaScript     |          9 |          1 |          3 |         13 |
+| Total                                                                                         |                |     19,280 |         53 |        207 |     19,540 |
++-----------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+

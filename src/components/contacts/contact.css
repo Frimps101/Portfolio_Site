@@ -83,18 +83,19 @@ textarea {
   outline: none;
 }
 
-button {
+.c form button {
   border: none;
   padding: 10px 20px;
-  background: var(--violet-primary);
+  background-color: var(--violet-primary);
   color: white;
+  font-family: inherit;
+  font-size: 14px;
   font-weight: 500;
   cursor: pointer;
-  text-transform: uppercase;
   border-radius: 5px;
 }
 
-button:hover {
+.c form button:hover {
   opacity: 0.8;
 }
 

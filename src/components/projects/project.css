@@ -9,13 +9,14 @@
 
 .project-view-more {
   display: inline-block;
-  color: var(--violet-primary);
+  color: #374151;
   font-weight: 500;
   text-decoration: none;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
+  transition: color 0.2s ease;
 }
 
-.project-view-more:hover {
-  opacity: 0.85;
+.project-view-more:hover,
+.project-view-more:focus-visible {
+  color: var(--violet-primary);
+  opacity: 1;
 }

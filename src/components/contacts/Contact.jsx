@@ -82,7 +82,7 @@ const Contact = () => {
               rows="5 "
               placeholder="Message"
             ></textarea>
-            <button>Submit</button>
+            <button type="submit">Submit</button>
             <p className="c-thanks">{done && "Thank you."}</p>
           </form>
         </div>

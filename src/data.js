@@ -1,4 +1,4 @@
-export const products = [
+const baseProducts = [
   {
     id: 1,
     link: "https://restaurant-site.pages.dev/",
@@ -25,11 +25,11 @@ export const products = [
   },
   {
     id: 4,
-    link: "https://frimps-edu.pages.dev/",
-    github: "",
-    title: "Simple Restaurant Site",
+    link: "https://track-kappa-black.vercel.app/",
+    github: "https://github.com/Frimps101/Track",
+    title: "Track - Inventory System",
     desc: "A simple yet attractive framing site is built with react, providing a seamless and user-friendly interface. ",
-    tech: ["React", "css"],
+    tech: ["react", "asp.net"],
   },
   {
     id: 5,
@@ -47,4 +47,16 @@ export const products = [
     desc: "Unlock your financial potential with our investment website. Discover a world of opportunities.",
     tech: ["javascript", "html", "css"],
   },
+];
+
+/** Shown on the home page (6 projects). */
+export const products = baseProducts;
+
+/** Full catalog for /projects — home set plus duplicates with new ids. */
+export const allProducts = [
+  ...baseProducts,
+  ...baseProducts.map((project, index) => ({
+    ...project,
+    id: baseProducts.length + index + 1,
+  })),
 ];

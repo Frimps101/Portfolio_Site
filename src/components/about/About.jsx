@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import CV from "../../img/CV.pdf";
+import CV from "../../img/Frimps_CV.pdf";
 
 const About = () => {
   return (

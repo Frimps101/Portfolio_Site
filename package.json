@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
     "@fortawesome/free-brands-svg-icons": "^6.7.2",
     "@fortawesome/free-regular-svg-icons": "^6.3.0",
@@ -14,7 +15,6 @@
     "antd": "^5.6.2",
     "autoprefixer": "^10.4.14",
     "babel-plugin-macros": "^3.1.0",
-    "emailjs-com": "^3.2.0",
     "framer-motion": "^12.7.4",
     "lucide-react": "^0.503.0",
     "postcss": "^8.4.24",

@@ -103,15 +103,72 @@ textarea {
   margin-top: 5px;
 }
 
+.c-error-wrap {
+  margin-top: 8px;
+}
+
+.c-error {
+  color: #dc2626;
+  font-size: 14px;
+}
+
+.c-mailto-fallback {
+  display: inline-block;
+  margin-top: 8px;
+  color: var(--violet-primary);
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.c-mailto-fallback:hover {
+  opacity: 0.85;
+}
+
+.c form button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+@media (max-width: 48em) {
+  .c {
+    padding-bottom: 4rem;
+  }
+
+  .c-wrapper {
+    flex-direction: column;
+    gap: 3.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .c-left,
+  .c-right {
+    width: 100%;
+    padding: 0 0.5rem;
+  }
+
+  .c-left {
+    padding-bottom: 1rem;
+  }
+
+  .c-right {
+    padding-top: 0.5rem;
+  }
+
+  .c-title {
+    font-size: 2.5rem;
+  }
+
+  .c-info-item {
+    margin: 1.5rem 0;
+  }
+}
+
 @media (max-width: 20em) {
-}
-
-@media (min-width: 20.063em) and (max-width: 30em) {
-  /* Styles for phones in landscape and small tablets */
-}
-
-@media (min-width: 30.063em) and (max-width: 48em) {
-  /* Styles for tablets and large phones */
+  .c-title {
+    font-size: 2rem;
+  }
 }
 
 @media (min-width: 48.063em) and (max-width: 64em) {
